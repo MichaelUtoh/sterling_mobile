@@ -10,7 +10,6 @@ class AccountDashboardCard extends StatefulWidget {
 
 class _AccountDashboardCardState extends State<AccountDashboardCard> {
   bool _isBalanceVisible = false;
-  String _userBalance = '₦250000.00';
 
   void _showBalance() {
     setState(() {
